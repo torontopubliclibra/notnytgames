@@ -1,0 +1,39 @@
+@use "variables" as *;
+
+@font-face {
+  font-family: "Moderustic";
+  src: url(/fonts/Moderustic/Moderustic-VariableFont_wght.ttf) format("truetype");
+  font-display: swap;
+}
+
+* {
+  font-size: 18px;
+}
+
+body, header, footer, button, select {
+  color: $white;
+}
+
+a {
+  color: $color2;
+}
+
+body, button, input, select {
+  font-family: "Moderustic", sans-serif;
+  font-display: swap;
+  font-weight: 500;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+footer {
+  p, a {
+    font-size: 0.8rem;
+    max-width: 1000px;
+    margin: 0;
+    margin-top: 25px;
+    @media only screen and (max-width: $tablet) {
+      font-size: 0.75rem;
+    }
+  }
+}

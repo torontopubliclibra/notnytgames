@@ -329,6 +329,7 @@ header, footer {
 }
 
 footer {
+  box-shadow: none;
   border-top: solid 8px #823dc4;
   margin-bottom: 0;
   padding-top: 15px;
@@ -341,7 +342,6 @@ body {
   min-height: 100vh;
   margin: 0;
   gap: 20px;
-  padding-bottom: 5px;
 }
 
 header {

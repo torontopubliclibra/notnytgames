@@ -257,6 +257,7 @@ header p.subtitle {
 }
 
 section p {
+  font-size: 0.9rem;
   text-wrap: balance;
 }
 
@@ -289,8 +290,9 @@ h1 {
 h2 {
   font-family: "Chomsky", serif;
   font-size: 1.9rem;
+  line-height: 1;
   margin: 0;
-  margin-bottom: -10px;
+  margin-top: 15px;
 }
 
 body, button, input, select {
@@ -343,7 +345,7 @@ article {
   background: rgba(230, 230, 230, 0.95);
   width: 100%;
   margin: 0 auto;
-  padding: 15px 20px;
+  padding: 10px 20px;
   border-radius: 7px;
   box-shadow: 0 7px 0 0 #823dc4;
   text-decoration: none;

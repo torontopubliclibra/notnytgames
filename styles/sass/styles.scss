@@ -47,6 +47,12 @@ section {
     margin-bottom: 30px;
 }
 
+@media (max-width: $mobile) {
+    section {
+        margin-bottom: 40px;
+    }
+}
+
 article {
     background: rgba($light, 0.95);
     width: 100%;

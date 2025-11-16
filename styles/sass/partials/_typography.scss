@@ -20,6 +20,11 @@ html {
   text-align: center;
 }
 
+header a.title {
+  text-decoration: none;
+  color: inherit;
+}
+
 header p, header a {
   font-size: 0.9rem;
   text-wrap: balance;

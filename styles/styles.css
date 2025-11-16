@@ -247,6 +247,11 @@ html {
   text-align: center;
 }
 
+header a.title {
+  text-decoration: none;
+  color: inherit;
+}
+
 header p, header a {
   font-size: 0.9rem;
   text-wrap: balance;
@@ -326,9 +331,15 @@ body {
   padding-bottom: 5px;
 }
 
+header {
+  position: fixed;
+  width: 100vw;
+}
+
 main {
   box-shadow: 0 7px 0 0 #823dc4;
   margin: 0;
+  margin-top: 315px;
 }
 
 section {
@@ -341,6 +352,14 @@ section {
   margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+  main {
+    margin-top: 340px;
+  }
+  section {
+    margin-bottom: 50px;
+  }
+}
 article {
   background: rgba(230, 230, 230, 0.95);
   width: 100%;

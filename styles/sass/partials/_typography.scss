@@ -25,13 +25,21 @@ header a.title {
   color: inherit;
 }
 
-header p, header a {
+header p, header a, footer p, footer a {
   font-size: 0.9rem;
   text-wrap: balance;
 }
 
 header p.subtitle {
   font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: $mobile) {
+  header p.subtitle {
+    max-width: 500px;
+  }
 }
 
 section p {

@@ -22,6 +22,15 @@ html {
 
 header p, header a {
   font-size: 0.9rem;
+  text-wrap: balance;
+}
+
+header p.subtitle {
+  font-size: 1rem;
+}
+
+section p {
+  text-wrap: balance;
 }
 
 body, header, footer, button, select {
@@ -41,8 +50,15 @@ a {
 
 h1 {
   font-family: "Chomsky", serif;
-  margin: 15px 0;
-  font-size: 2.5rem;
+  margin: 25px 0;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+@media (max-width: $mobile) {
+  h1 {
+    font-size: 14vw;
+  }
 }
 
 h2 {

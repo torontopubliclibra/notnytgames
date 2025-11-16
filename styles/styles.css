@@ -249,6 +249,15 @@ html {
 
 header p, header a {
   font-size: 0.9rem;
+  text-wrap: balance;
+}
+
+header p.subtitle {
+  font-size: 1rem;
+}
+
+section p {
+  text-wrap: balance;
 }
 
 body, header, footer, button, select {
@@ -267,10 +276,16 @@ a {
 }
 h1 {
   font-family: "Chomsky", serif;
-  margin: 15px 0;
-  font-size: 2.5rem;
+  margin: 25px 0;
+  font-size: 5rem;
+  line-height: 1;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 14vw;
+  }
+}
 h2 {
   font-family: "Chomsky", serif;
   font-size: 1.9rem;
@@ -294,7 +309,7 @@ header {
   background: #e6e6e6;
   padding: 0;
   padding: 0 5vw;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   margin-bottom: 15px;
   box-shadow: 0 7px 0 0 #823dc4;
 }
@@ -315,24 +330,28 @@ main {
 }
 
 section {
-  width: 90vw;
-  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 85vw;
+  max-width: 600px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 article {
-  background: #e6e6e6;
+  background: rgba(230, 230, 230, 0.95);
   width: 100%;
   margin: 0 auto;
   padding: 15px 20px;
   border-radius: 7px;
   box-shadow: 0 7px 0 0 #823dc4;
-  margin-bottom: 25px;
   text-decoration: none;
 }
 
 @media (min-width: 970px) {
   article:hover {
+    background: #e6e6e6;
     box-shadow: 0 10px 0 0 #823dc4;
     transform: translateY(-3px);
     transition: all 0.2s ease-in-out;
@@ -344,8 +363,4 @@ section a {
 
 section a:hover {
   color: #2c282c;
-}
-
-section p {
-  font-size: 0.9rem;
 }

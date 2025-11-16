@@ -306,7 +306,7 @@ body {
   min-height: 100vh;
   margin: 0;
   gap: 20px;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
 }
 
 main {
@@ -314,10 +314,15 @@ main {
   margin: 0;
 }
 
-article {
-  background: #e6e6e6;
+section {
   width: 90vw;
   max-width: 750px;
+  margin: 0 auto;
+}
+
+article {
+  background: #e6e6e6;
+  width: 100%;
   margin: 0 auto;
   padding: 15px 20px;
   border-radius: 7px;

@@ -6,8 +6,22 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Chomsky";
+  src: url(/fonts/chomsky/Chomsky.otf) format("truetype");
+  font-display: swap;
+}
+
 * {
   font-size: 18px;
+}
+
+html {
+  text-align: center;
+}
+
+header p, header a {
+  font-size: 0.9rem;
 }
 
 body, header, footer, button, select {
@@ -18,22 +32,30 @@ a {
   color: $dark;
 }
 
+@media (min-width: $tablet) {
+  a:hover {
+    color: $color1;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+h1 {
+  font-family: "Chomsky", serif;
+  margin: 15px 0;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "Chomsky", serif;
+  font-size: 1.9rem;
+  margin: 0;
+  margin-bottom: -10px;
+}
+
 body, button, input, select {
   font-family: "Moderustic", sans-serif;
   font-display: swap;
   font-weight: 500;
   line-height: 1.6;
   text-decoration: none;
-}
-
-footer {
-  p, a {
-    font-size: 0.8rem;
-    max-width: 1000px;
-    margin: 0;
-    margin-top: 25px;
-    @media only screen and (max-width: $tablet) {
-      font-size: 0.75rem;
-    }
-  }
 }

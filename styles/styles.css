@@ -234,8 +234,21 @@ html {
   src: url(/fonts/Moderustic/Moderustic-VariableFont_wght.ttf) format("truetype");
   font-display: swap;
 }
+@font-face {
+  font-family: "Chomsky";
+  src: url(/fonts/chomsky/Chomsky.otf) format("truetype");
+  font-display: swap;
+}
 * {
   font-size: 18px;
+}
+
+html {
+  text-align: center;
+}
+
+header p, header a {
+  font-size: 0.9rem;
 }
 
 body, header, footer, button, select {
@@ -246,6 +259,25 @@ a {
   color: #2c282c;
 }
 
+@media (min-width: 970px) {
+  a:hover {
+    color: #823dc4;
+    transition: all 0.2s ease-in-out;
+  }
+}
+h1 {
+  font-family: "Chomsky", serif;
+  margin: 15px 0;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "Chomsky", serif;
+  font-size: 1.9rem;
+  margin: 0;
+  margin-bottom: -10px;
+}
+
 body, button, input, select {
   font-family: "Moderustic", sans-serif;
   font-display: swap;
@@ -254,60 +286,61 @@ body, button, input, select {
   text-decoration: none;
 }
 
-footer p, footer a {
-  font-size: 0.8rem;
-  max-width: 1000px;
-  margin: 0;
-  margin-top: 25px;
-}
-@media only screen and (max-width: 970px) {
-  footer p, footer a {
-    font-size: 0.75rem;
-  }
+html {
+  background: #e6e6e6;
 }
 
-html {
-  background: #c2c7c8;
+header {
+  background: #e6e6e6;
+  padding: 0;
+  padding: 0 5vw;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+  box-shadow: 0 7px 0 0 #823dc4;
 }
 
 body {
+  background: #aa7ef8;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
   gap: 20px;
+  padding-bottom: 7px;
 }
 
-hr {
-  color: #b696b4;
-  background-color: #b696b4;
-  border-color: #b696b4;
+main {
+  box-shadow: 0 7px 0 0 #823dc4;
+  margin: 0;
 }
 
-header, main, footer {
-  margin: 0 5vw;
-}
-
-.cloud-pic {
+article {
+  background: #e6e6e6;
+  width: 90vw;
+  max-width: 750px;
   margin: 0 auto;
-  padding: 0;
-  width: calc(100vw - 40px);
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  pointer-events: none;
+  padding: 15px 20px;
+  border-radius: 7px;
+  box-shadow: 0 7px 0 0 #823dc4;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+
+@media (min-width: 970px) {
+  article:hover {
+    box-shadow: 0 10px 0 0 #823dc4;
+    transform: translateY(-3px);
+    transition: all 0.2s ease-in-out;
+  }
+}
+section a {
+  text-decoration: none;
+}
+
+section a:hover {
+  color: #2c282c;
 }
 
 section p {
   font-size: 0.9rem;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 0;
-  padding-bottom: 50px;
 }

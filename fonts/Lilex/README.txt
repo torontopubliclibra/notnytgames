@@ -1,23 +1,32 @@
-Moderustic Variable Font
-========================
+Lilex Variable Font
+===================
 
-This download contains Moderustic as both a variable font and static fonts.
+This download contains Lilex as both variable fonts and static fonts.
 
-Moderustic is a variable font with this axis:
+Lilex is a variable font with this axis:
   wght
 
-This means all the styles are contained in a single file:
-  Moderustic-VariableFont_wght.ttf
+This means all the styles are contained in these files:
+  Lilex-VariableFont_wght.ttf
+  Lilex-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Moderustic:
-  static/Moderustic-Light.ttf
-  static/Moderustic-Regular.ttf
-  static/Moderustic-Medium.ttf
-  static/Moderustic-SemiBold.ttf
-  static/Moderustic-Bold.ttf
-  static/Moderustic-ExtraBold.ttf
+in those cases you can use the static font files for Lilex:
+  static/Lilex-Thin.ttf
+  static/Lilex-ExtraLight.ttf
+  static/Lilex-Light.ttf
+  static/Lilex-Regular.ttf
+  static/Lilex-Medium.ttf
+  static/Lilex-SemiBold.ttf
+  static/Lilex-Bold.ttf
+  static/Lilex-ThinItalic.ttf
+  static/Lilex-ExtraLightItalic.ttf
+  static/Lilex-LightItalic.ttf
+  static/Lilex-Italic.ttf
+  static/Lilex-MediumItalic.ttf
+  static/Lilex-SemiBoldItalic.ttf
+  static/Lilex-BoldItalic.ttf
 
 Get started
 -----------

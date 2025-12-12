@@ -292,8 +292,14 @@ header a.title {
   color: inherit;
 }
 
-header p, header a, footer p, footer a {
+header p, header a{
   font-size: 0.8rem;
+  text-wrap: balance;
+  margin: 0;
+}
+
+footer p, footer a {
+  font-size: 0.7rem;
   text-wrap: balance;
   margin: 0;
 }

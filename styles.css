@@ -263,7 +263,10 @@ header p.subtitle {
 
 @media (max-width: 768px) {
   header p.subtitle {
-    display: none;
+    font-size: 0.8rem;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 5px;
   }
 }
 section p {
@@ -296,6 +299,7 @@ h1 {
 @media (max-width: 768px) {
   h1 {
     font-size: 3rem;
+    margin-top: 18px;
   }
 }
 h2 {
@@ -358,7 +362,7 @@ main {
 
 @media (max-width: 768px) {
   main {
-    margin-top: 150px;
+    margin-top: 185px;
   }
 }
 section {

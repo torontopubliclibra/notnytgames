@@ -12,11 +12,6 @@ article, aside, footer, header, nav, section {
   display: block;
 }
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 figcaption, figure, main {
   display: block;
 }
@@ -259,7 +254,7 @@ header p, header a, footer p, footer a {
 }
 
 header p.subtitle {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0.75rem;
@@ -272,7 +267,7 @@ header p.subtitle {
   }
 }
 section p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-wrap: balance;
 }
 
@@ -292,8 +287,9 @@ a {
 }
 h1 {
   font-family: "Chomsky", serif;
+  transform: perspective(400px) rotateX(12deg);
   margin: 25px 0;
-  font-size: 5rem;
+  font-size: 5.25rem;
   line-height: 1;
 }
 
